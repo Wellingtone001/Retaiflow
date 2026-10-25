@@ -1,0 +1,38 @@
+# Raw datasets
+
+*.csv
+*.zip
+
+# SQL Server database files
+
+*.mdf
+*.ldf
+*.bak
+*.trn
+
+# Credentials
+
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+
+*.log
+*.tmp
+
+# Python-generated files
+
+**pycache**/
+*.pyc
+.venv/
+venv/
+
+# Operating system files
+
+Thumbs.db
+.DS_Store
+
+# Local editor settings
+
+.vscode/
